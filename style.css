@@ -9,6 +9,16 @@
 body {
   background: #E3F2FD;
 }
+body::before{
+  content: "";
+    position: absolute;
+    background-image: url(https://img.freepik.com/free-photo/mesmerizing-view-fresh-green-fields-cloudy-sky_181624-49447.jpg?w=996&t=st=1690714359~exp=1690714959~hmac=c988802c4f2d70917dc5a95253ba2a7568df52f625c7cecaa2f55e21d11a3e35);
+    height: 850px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
 h1 {
   background: #5372F0;
   font-size: 1.75rem;
